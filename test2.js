@@ -18,3 +18,13 @@ let person = {
     }
 }
 person.info()
+
+class a{}
+class b extends a{
+    constructor(){
+        super()
+        this.test = true
+    }
+}
+var res = new b()
+console.log(res.test)
