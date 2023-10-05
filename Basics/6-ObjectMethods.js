@@ -31,3 +31,5 @@ let person = {
     }
 }
 person.info()
+
+

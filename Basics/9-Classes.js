@@ -33,3 +33,8 @@ console.log(eagle.canFly)
 var elephant = Object.create(bird)
 elephant.canFly = false
 console.log(elephant.canFly)
+
+// Object.keys(), Object.values(), and Object.entries()
+console.log(Object.keys(obj))
+console.log(Object.values(obj))
+console.log(Object.entries(obj))
