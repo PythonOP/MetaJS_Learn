@@ -1,7 +1,20 @@
-function add(a,b){
-    return (a+b)
+var car = {
+    name:'Tesla',
+    model:'Model S',
+    driven:function(){
+        return 25000;
+    }
 }
-console.log(add(2,3))
+console.log(car.name)
+console.log(car.model)
+console.log(car.driven())
 
-var test = console.log('hey')
-console.log(test)
+//use of this keyword
+let person = {
+    name:'Sundar',
+    age:56,
+    info:function(){
+        console.log(this.name,' is ',this.age,' years old.')
+    }
+}
+person.info()
