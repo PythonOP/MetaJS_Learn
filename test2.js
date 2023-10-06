@@ -1,20 +1,27 @@
-var car = {
-    name:'Tesla',
-    model:'Model S',
-    driven:function(){
-        return 25000;
-    }
-}
-console.log(car.name)
-console.log(car.model)
-console.log(car.driven())
+// var dairy = ['cheese', 'sour cream', 'milk', 'yogurt', 'ice cream', 'milkshake']
+// function logDairy() {
+//     for (var item of dairy) {
+//         console.log(item)
+//     }
+// }
+// logDairy()
+const animal = {
+    canJump: true
+};
 
-//use of this keyword
-let person = {
-    name:'Sundar',
-    age:56,
-    info:function(){
-        console.log(this.name,' is ',this.age,' years old.')
+const bird = Object.create(animal);
+bird.canFly = true;
+bird.hasFeathers = true;
+function birdCan() {
+    for(prop of Object.entries(bird)){
+        console.log(`${prop[0]}: ${prop[1]}`)
     }
 }
-person.info()
+birdCan()
+
+function animalCan(){
+    for(prop in bird){
+        console.log(`${prop}: ${bird[prop]}`)
+    }
+}
+animalCan()
