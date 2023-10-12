@@ -1,4 +1,3 @@
-function count(...basket){
-    console.log(basket.length)
-}
-count(10,9,8,7,6)
+// JS modules are standalone code that can
+// be used again and again
+
