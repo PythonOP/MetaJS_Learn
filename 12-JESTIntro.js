@@ -15,3 +15,11 @@ console.log(concatStr("abc","def"));
 
 //Mocking: Sperating code from related dependencies during testing
 //Snapshot testing: Used by web developers to verify that there are no regressions in the DOM
+
+
+//TDD: Test Driven Development
+// RED GREEN REFACTOR cycles
+// Get requriements
+// Write failing test code
+// Write source code
+// Refactor and optimise the implementations
