@@ -12,3 +12,6 @@ console.log(concatStr("abc","def"));
 // e2e end to end testing are slow testing methods to manual check systems
 // Integration testing tests how parts of system interacts with each other
 // Unit testing tests the smallest units of the system(self-contained codes to check subprocesses)
+
+//Mocking: Sperating code from related dependencies during testing
+//Snapshot testing: Used by web developers to verify that there are no regressions in the DOM
